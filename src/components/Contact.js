@@ -15,11 +15,11 @@ const Contact = () => {
           <div className='flex flex-col gap-7 sm:flex-row mx-auto gap-y-6'>
             <div className=''>
               <label htmlFor="first_name" className='block mb-2 text-sm font-medium text-gray-700'>First Name</label> 
-              <input type="text" id='first_name' placeholder='Enter your first name' className='w-full sm:w-96 border border-[#D0D5DD] focus:outline-none py-2 px-2 rounded-lg' />
+              <input type="text" id='first_name' placeholder='Enter your first name' className='w-full sm:w-11/12 border border-[#D0D5DD] focus:outline-none py-2 px-2 rounded-lg' />
             </div>
             <div className=''>
             <label htmlFor="last_name" className='block mb-2 text-sm font-medium text-gray-700'>Last Name</label>
-            <input type="text" id='last_name' placeholder='Enter your last name' className='w-full sm:w-96 border border-[#D0D5DD] focus:outline-none py-2 px-2 rounded-lg'/>
+            <input type="text" id='last_name' placeholder='Enter your last name' className='w-full sm:w border border-[#D0D5DD] focus:outline-none py-2 px-2 rounded-lg'/>
             </div>
           </div>
           <div className='mt-8'>
@@ -40,7 +40,7 @@ const Contact = () => {
           
         </form>
       </main>
-      <section id='footer' className='flex flex-col items-start sm:flex-row sm:justify-around sm:items-center text-center text-sm text-gray-500 gap-y-4 mt-4'>
+      <section id='footer' className='flex flex-col items-start sm:flex-row sm:justify-around sm:items-center text-center px-5 text-sm text-gray-500 gap-y-4 mt-4'>
           <img src={zuri} alt="zuri"/>
           <p>HNG Internship 9 Frontend Task</p>
           <img src={I4G} alt="I4G"/>
