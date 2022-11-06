@@ -30,7 +30,7 @@ function App() {
           <a href='https://books.zuri.team/python-for-beginners?ref_id=sherif' id='book__python' target="_blank" rel="noopener noreferrer" className="text-center py-4 bg-gray-200 border border-gray-200 rounded-lg font-medium hover:bg-gray-300 focus:border-gray-400">Python Books</a>
           <a href='https://background.zuri.team' id='pitch' target="_blank" rel="noopener noreferrer" className="text-center py-4 bg-gray-200 border border-gray-200 rounded-lg font-medium hover:bg-gray-300 focus:border-gray-400">Background Check for Coders</a>
           <a href='https://books.zuri.team/design-rules' id='book__design' target="_blank" rel="noopener noreferrer" className="text-center py-4 bg-gray-200 border border-gray-200 rounded-lg font-medium hover:bg-gray-300 focus:border-gray-400">Design Books</a>
-          <Link to='/contact' className="text-center py-4 bg-gray-200 border border-gray-200 rounded-lg font-medium hover:bg-gray-300 focus:border-gray-400">Contact Me</Link>      
+          <Link to='/contact' id="contact" className="text-center py-4 bg-gray-200 border border-gray-200 rounded-lg font-medium hover:bg-gray-300 focus:border-gray-400">Contact Me</Link>      
         </section>
         <section id='social-links' className='flex justify-center gap-x-6 mt-5'>
           <img src={slack} alt="slack"/>
